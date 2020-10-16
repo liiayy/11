@@ -7,4 +7,4 @@ send_data = input("请输入要发送的数据：")
 tcp_client_socket.send(send_data.encode("gbk"))
 recvData = tcp_client_socket.recv(1024)
 print('接收到的数据为:', recvData.decode('gbk'))
-tcp_client_socket.close()
+'shabile'
