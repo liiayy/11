@@ -8,3 +8,6 @@ tcp_client_socket.send(send_data.encode("gbk"))
 recvData = tcp_client_socket.recv(1024)
 print('接收到的数据为:', recvData.decode('gbk'))
 'shabile123'
+
+if server_ip == '123':
+    print('wocao?')
